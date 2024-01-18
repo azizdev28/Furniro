@@ -1,0 +1,46 @@
+.NavbarClass {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 100px;
+  flex-shrink: 0;
+
+  .Logo {
+    display: flex;
+    align-items: center;
+
+    h2 {
+      color: #000;
+      font-family: Montserrat;
+      font-size: 34px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+    img {
+      width: 50px;
+      height: 32px;
+    }
+  }
+
+  .NavbarItem ul {
+    display: flex;
+    gap: 75px;
+    li {
+      a {
+        color: #000;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+    }
+  }
+
+  .NavbarIcon ul {
+    display: flex;
+    gap: 45px;
+  }
+}

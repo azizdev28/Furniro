@@ -1,0 +1,62 @@
+.FuniroFurniture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 67px;
+}
+
+.FuniroFurnitureCards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.two {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 10px;
+
+  .first {
+    width: 451px;
+    height: 312px;
+    flex-shrink: 0;
+  }
+  .second {
+    width: 344px;
+    height: 242px;
+    flex-shrink: 0;
+  }
+  .fourth {
+    width: 290px;
+    height: 348px;
+    flex-shrink: 0;
+  }
+  .fiveth {
+    width: 178px;
+    height: 242px;
+    flex-shrink: 0;
+  }
+  .six {
+    width: 274px;
+    height: 382px;
+    flex-shrink: 0;
+  }
+
+  .seven {
+    width: 381px;
+    height: 323px;
+    flex-shrink: 0;
+  }
+  .eight {
+    width: 425px;
+    height: 433px;
+    flex-shrink: 0;
+  }
+
+  .nine {
+    width: 258px;
+    height: 196px;
+    flex-shrink: 0;
+  }
+}

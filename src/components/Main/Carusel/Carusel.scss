@@ -1,0 +1,45 @@
+.carusel {
+  width: 404px;
+  height: 582px;
+  flex-shrink: 0;
+}
+.CaruselSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 100px;
+  background-color: #fcf8f3;
+  padding: 50px 100px;
+
+  .CaruselInfo {
+    h2 {
+      color: var(--Color-Gray-1, #3a3a3a);
+      font-family: Poppins;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 120%; /* 48px */
+    }
+    p {
+      color: var(--Color-Gray-2, #616161);
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 150%; /* 24px */
+    }
+    button {
+      width: 176px;
+      height: 48px;
+      flex-shrink: 0;
+      background: var(--Primary, #b88e2f);
+      color: var(--Color-White, #fff);
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 150%; /* 24px */
+    }
+  }
+}

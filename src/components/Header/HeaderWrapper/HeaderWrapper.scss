@@ -1,0 +1,72 @@
+.WrapperHeader {
+  background-image: url(../../../assets/img/HeaderWrapper.png);
+  height: 800px;
+  flex-shrink: 0;
+
+  /* Qo'shimcha xususiyatlar */
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 56px;
+  .WrapperCard {
+    width: 643px;
+    height: 443px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #fff3e3;
+    padding: 62px 56px 37px 47px;
+    text-align: start;
+
+    span {
+      color: var(--Font-Color, #333);
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: 3px;
+    }
+    h2 {
+      color: var(--Primary, #b88e2f);
+      font-family: Poppins;
+      font-size: 52px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 65px; /* 125% */
+    }
+    p {
+      color: var(--Font-Color, #333);
+      font-family: Poppins;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 24px; /* 133.333% */
+      margin: 17px 0 47px;
+    }
+    button {
+      display: inline-flex;
+      padding: 25px 72px;
+      align-items: flex-start;
+      gap: 10px;
+      color: #fff;
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: uppercase;
+      background: var(--Primary, #b88e2f);
+      transition: all 0.7s ease;
+      border: 1px solid #b88e2f;
+      border-radius: 10px;
+      &:hover {
+        background: #fff;
+        color: var(--Primary, #b88e2f);
+      }
+    }
+  }
+}
